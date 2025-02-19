@@ -1,0 +1,54 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Navbar from "@components/Navbar.astro";
+import ProfileSection from "@components/ProfileSection.astro";
+import AboutSection from "@components/AboutSection.astro";
+import ProjectsSection from "@components/ProjectsSection.astro";
+import SkillsSection from "@components/SkillsSection.astro";
+import FinalSection from "@components/FinalSection.astro";
+---
+
+<Layout title="Abhishek Rauthan">
+  <div
+    class="min-w-[535px] max-w-screen-xl mx-auto py-16 px-8 selection:bg-gray-600 selection:text-white"
+  >
+    <header>
+      <Navbar />
+      <ProfileSection />
+    </header>
+    <main>
+      <AboutSection />
+      <ProjectsSection />
+      <section>
+        <hr class="mb-4 border-zinc-600" />
+        <p class="leading-8 text-lg text-pretty text-zinc-400">
+          Additionally have hands-on experience in web development, having built
+          several web applications using <strong
+            class="text-zinc-100 font-medium">Astro, React, and .NET</strong
+          >. explored <strong class="text-zinc-100 font-medium">Azure</strong>
+          for cloud services,and worked with <strong
+            class="text-zinc-100 font-medium">Docker</strong
+          > and other CI/CD tools as part of <strong
+            class="text-zinc-100 font-medium">DevOps</strong
+          > practices
+        </p>
+        <p class="mt-8 leading-8 text-lg text-pretty text-zinc-400">
+          have skills in <strong class="text-zinc-100 font-medium"
+            >exploratory data analysis (EDA) using Python</strong
+          >, with hands-on experience in analyzing and visualizing complex
+          datasets using Python libraries such as <strong
+            class="text-zinc-100 font-medium"
+            >Pandas, Matplotlib, and Seaborn</strong
+          > to analyze datasets, and create insightful visualizations. Additionally,
+          have a solid understanding of web development, particularly using the <strong
+            class="text-zinc-100 font-medium">Flask</strong
+          > framework.
+        </p>
+      </section>
+      <SkillsSection />
+    </main>
+    <footer>
+      <FinalSection />
+    </footer>
+  </div>
+</Layout>

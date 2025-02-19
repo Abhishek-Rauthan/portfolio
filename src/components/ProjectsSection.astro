@@ -1,0 +1,34 @@
+---
+import ProjectCard from "@components/ProjectCard.astro";
+---
+
+<section class="my-20">
+  <h2 class="text-2xl font-semibold mb-2">Projects</h2>
+  <hr class="mb-6 border-zinc-600" />
+
+  <ProjectCard
+    projectTitle="Programming Language Interpreter (Tyr)"
+    projectDescription="Tyr is a lightweight interpreter using Go, featuring an interactive Read-Eval-Print Loop (REPL) for real-time code evaluation and debugging."
+    projectLink="https://github.com/Abhishek-Rauthan/Tyr/"
+    image="/images/tyr\ thumbnail.png"
+  />
+
+  <ProjectCard
+    projectTitle="Hangman Game"
+    projectDescription="Developed a Hangman game in Go using Raylib to handle graphics and user input, with over 100 words randomly selected from a text file."
+    projectLink="https://github.com/Abhishek-Rauthan/Hangman-Game"
+    image="/images/hangman\ thumbnail.png"
+  />
+  <ProjectCard
+    projectTitle="POSIX Shell"
+    projectDescription="Developed a POSIX-compliant shell using Go, providing a command-line interface for executing shell commands and scripts. Includes core shell features, including command parsing, process execution, file redirection, piping, and background job management."
+    projectLink="https://github.com/Abhishek-Rauthan/Go-POSIX-shell"
+    image="/images/shell\ thumbnail.png"
+  />
+  <ProjectCard
+    projectTitle="EduWisely"
+    projectDescription="Designed and Developed a front-end website that provides free information and resources on various subjects using Astro, and TailwindCSS with PageFind search."
+    projectLink="https://github.com/Abhishek-Rauthan/EduWisely/"
+    image="/images/eduwisely.png"
+  />
+</section>
